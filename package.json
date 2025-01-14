@@ -1,0 +1,21 @@
+{
+  "name": "devcontainer",
+  "version": "1.0.0",
+  "description": "This repo contains an example nodejs typescript project that runs postgres.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
